@@ -1,70 +1,63 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ART TALKS 🎨💬
 
-## Available Scripts
+**ART TALKS** is an innovative platform for art lovers and creators to connect and discuss artworks. The site showcases an image gallery featuring various pieces of art, each accompanied by a brief description and the artist’s name. By clicking on any image, users can view it in full size and join a live chat to discuss the piece in real-time.
 
-In the project directory, you can run:
+## Key Features 🖼️💬
 
-### `npm start`
+- **Image Gallery**: View a collection of artworks, each card containing the image, artist's name, and a brief description.
+- **Search Functionality**: Filter images by their title or the artist's name to easily find what you're looking for.
+- **Picture Discussion Page**: Clicking on an image will open it in full size along with details and an integrated chat panel.
+- **Real-Time Chat**: Engage in live conversations about the artwork using WebSockets to send and receive messages instantly.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Detailed Features ⚡
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Gallery Homepage
+- **Hardcoded List of Pictures**: The homepage displays image cards, each featuring:
+  - The image.
+  - The artist's name.
+  - A brief description (Lorem Ipsum).
+  
+- **Search Functionality**: Users can search for artworks by entering keywords related to the artwork’s name or the artist’s name.
 
-### `npm test`
+### 2. Picture Discussion Page
+- **Image Display**: When a user clicks on an image, the page will display:
+  - The image in full size.
+  - The artist’s name and artwork title.
+  
+- **Chat Interface**: A chat panel appears on the right side of the image, where users can:
+  - Type and submit messages.
+  - Discuss the artwork with other users in real time via WebSockets.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Bonus Features (Optional) 🎁
 
-### `npm run build`
+- **Backend Integration**: Fetch the image list from the backend and display it on the frontend using an HTTP client.
+- **Image Details on Mouseover**: Show additional information about each image (e.g., resolution, file size) when hovering over the image.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used 💻🚀
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: Used to build the interactive user interface.
+- **WebSocket**: Enables real-time chat functionality.
+- **Node.js**: Server-side backend for handling communication and data.
+- **CSS**: Styles the layout and presentation of the site.
+- **HTTP Client (Optional)**: Fetch data from the backend (e.g., Axios, Fetch API).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation Instructions 🚀
 
-### `npm run eject`
+To run the project locally, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/art-talks.git
+Install dependencies: Navigate to the project directory and install the necessary packages:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
+Start the project: Launch the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
+The application will be available at http://localhost:3000.
 
-## Learn More
+Contributing 🤝
+We welcome contributions to improve this project! If you'd like to contribute, fork the repository and submit a pull request. If you encounter any issues, please open an issue in the GitHub repository.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
