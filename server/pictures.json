@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Sunset",
+        "artist": "Vincent van Gogh",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageUrl": "http://localhost:4000/picture/sedimentation.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Sunrise",
+        "artist": "Vincent van Gogh",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageUrl": "http://localhost:4000/picture/sunrise.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Waterfull",
+        "artist": "Leonardo da Vinci",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageUrl": "http://localhost:4000/picture/Waterfall.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Forest",
+        "artist": "Leonardo da Vinci",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageUrl": "http://localhost:4000/picture/forest.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Sea",
+        "artist": "Leonardo da Vinci",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageUrl": "http://localhost:4000/picture/sea.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Field of flowers",
+        "artist": "Leonardo da Vinci",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageUrl": "http://localhost:4000/picture/flowers.png"
+    },
+    {
+        "id": 7,
+        "name": "Sea-sky",
+        "artist": "Leonardo da Vinci",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageUrl": "http://localhost:4000/picture/Sea-sky.jpg"
+    },
+    {
+        "id": 8,
+        "name": "A tree in the fall",
+        "artist": "Leonardo da Vinci",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "imageUrl": "http://localhost:4000/picture/tree.jpg"
+    }
+]
